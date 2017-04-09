@@ -1,0 +1,7 @@
+h4.inline {
+	display: inline-block;
+	line-height: 34px;
+}
+.right {
+	float: right;
+}
