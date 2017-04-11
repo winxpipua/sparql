@@ -5,3 +5,42 @@ h4.inline {
 .right {
 	float: right;
 }
+.demo-section:not(.wide), #example .box:not(.wide) {
+	max-width: 800px;
+}
+.left-panel {
+	width: 70%;
+	float: left;
+}
+.right-panel {
+	width: 30%;
+	float: right;
+}
+
+
+#panelbar {
+    max-width: 400px;
+    margin: 0 auto;
+}                
+.teamMate h2 {
+    font-size: 1.4em;
+    font-weight: normal;
+    padding-top: 20px;
+}
+.teamMate p {
+    margin: 0;
+}
+.teamMate img {
+    display: inline-block;
+    margin: 5px 15px 5px 5px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.details {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#panelbar {
+	max-width: 200px;
+}
