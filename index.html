@@ -32,6 +32,10 @@
             $("#panelbar").kendoPanelBar({
                 expandMode: "single"
             });
+
+            $("#panelbarHistory").kendoPanelBar({
+                expandMode: "single"
+            });
         });
     </script>
 
@@ -77,6 +81,15 @@
 	                        <li>Expand/Compact URI</li>
 	                        <li>Remove Singleton</li>
 	                        <li>Add Singleton Property</li>
+	                    </ul>
+	                </li>
+	            </ul>
+	            <ul id="panelbarHistory">
+	                <li class="k-state-active">
+	                    <span class="k-link k-state-selected">History</span>
+	                    <ul>
+	                        <li>New, Save, Delete</li>
+	                        <textarea name="textHistory"></textarea>
 	                    </ul>
 	                </li>
 	            </ul>

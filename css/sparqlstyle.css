@@ -18,8 +18,9 @@ h4.inline {
 }
 
 
-#panelbar {
-    max-width: 400px;
+#panelbar,
+#panelbarHistory {
+	max-width: 200px;
     margin: 0 auto;
 }                
 .teamMate h2 {
@@ -40,7 +41,9 @@ h4.inline {
     display: inline-block;
     vertical-align: top;
 }
-
-#panelbar {
-	max-width: 200px;
+#panelbarHistory {
+	margin-top: 18px;
+}
+#panelbarHistory textarea {
+	width: 99%;
 }
