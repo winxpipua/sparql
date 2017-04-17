@@ -12,32 +12,16 @@
     <link href="kendoui/styles/kendo.default.min.css" rel="stylesheet">
     <link href="kendoui/styles/kendo.default.mobile.min.css" rel="stylesheet">
 
+    <link href="css/jquery.numericLineTextarea.css" rel="stylesheet">
     <link href="css/sparqlstyle.css" rel="stylesheet">
     
     <script src="kendoui/js/jquery.min.js"></script>
     <script src="kendoui/js/jszip.min.js"></script>
     <script src="kendoui/js/kendo.all.min.js"></script>
     <script src="kendoui/examples/content/shared/js/console.js"></script>
-    <script>
-        $(document).ready(function() {
-            // create Editor from textarea HTML element with default set of tools
-            $("#editor").kendoEditor({ 
-				tools: [],
-            	resizable: {
-                	content: true,
-                	toolbar: true
-            	}
-            });
 
-            $("#panelbar").kendoPanelBar({
-                expandMode: "single"
-            });
-
-            $("#panelbarHistory").kendoPanelBar({
-                expandMode: "single"
-            });
-        });
-    </script>
+    <script src="js/jquery.numericLineTextarea.js"></script>
+    <script src="js/sparqlcode.js"></script>
 
 </head>
 <body>

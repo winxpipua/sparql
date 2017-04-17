@@ -1,0 +1,22 @@
+table.k-editor {
+	table-layout: auto !important;
+}
+
+.numericTd {
+	width: 10%;
+}
+
+#numericLineTextarea {
+	box-sizing: border-box;
+	font-size: 12px;
+	font-family: Verdana,Geneva,sans-serif;
+	padding: 5px .4em 0;
+	width: 100%;
+	min-height: 100%;
+	background: #c5c5c5;
+}
+
+#numericLineTextarea .digit {
+	text-align: right;
+	color: #333;
+}
